@@ -14,21 +14,32 @@ for matrices $A_{m×n}$ and $B_{n×k}$, the product $C_{m×k} = AB$ is:
 $C_{ij} = \sum_{p=1}^{n} A_{ip} \times B_{pj}$
 
 ### example
-```
-A = [2 8]     B = [10 9 5]
-    [5 1]         [5  9 4]
-    [4 2]
-    [8 6]
-```
 
-resulting in:
+$$
+A \times B = C
+$$
 
-$C = \begin{bmatrix} 
+$$
+\begin{bmatrix}
+2 & 8 \\
+5 & 1 \\
+4 & 2 \\
+8 & 6 \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+10 & 9 & 5 \\
+5 & 9 & 4 \\
+\end{bmatrix}
+\=
+\begin{bmatrix}
 60 & 90 & 42 \\
 55 & 54 & 29 \\
-50 & 54 & 28 \\
-110 & 126 & 64
-\end{bmatrix}$
+50 &  54 & 28 \\
+110 & 126 & 64 \\
+\end{bmatrix}
+$$
+
 
 ## implementation methods
 
