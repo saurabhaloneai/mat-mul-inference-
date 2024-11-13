@@ -1,7 +1,6 @@
 # mat-mul-inference
 
 > [!IMPORTANT]
-> ...
 >
 > ... ggml_mat_mal -> trying to undertanddddd🐳
 
